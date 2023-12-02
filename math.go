@@ -1,4 +1,4 @@
-package simplemath
+package simpleMath
 
 func Add(a int, b int) int {
 	return a + b
@@ -14,4 +14,8 @@ func Mul(a int, b int) int {
 
 func Div(a int, b int) int {
 	return a / b
+}
+
+func Mod(a int, b int) int {
+	return a % b
 }
